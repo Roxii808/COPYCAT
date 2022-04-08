@@ -687,7 +687,7 @@ class menu:
 		jenis_ly = ly.replace("layout: ", "")
 	menu()
 class Main:
-	def __init__(self):
+           def __init__(self):
 		try:menu()
 		except:pass
 		try:menu();exit()
